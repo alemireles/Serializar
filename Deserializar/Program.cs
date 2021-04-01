@@ -22,6 +22,7 @@ namespace Deserializar
             byte[] byteArray2 = Encoding.UTF8.GetBytes("String");
             FileStream filestram = File.Open("", FileMode.Open);
             Object comprobante2 = (Object)mySerializer.Deserialize(filestram);
+            //Subir comentarip
 
         }
     }
